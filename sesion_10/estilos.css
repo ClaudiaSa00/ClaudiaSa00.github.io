@@ -61,3 +61,15 @@ img {
     width: 450px;
 
 }
+
+
+#img6 {
+    filter:blur(4px);
+}
+
+
+#img6:hover {
+    filter: none;
+    width: 450px;
+
+}
