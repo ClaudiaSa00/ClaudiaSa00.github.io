@@ -4,6 +4,12 @@ body {
 }
 
 
+
+#contenedor {
+    text-align: center;
+}
+
+
 img {
     width: 450px;
 }
@@ -72,4 +78,73 @@ img {
     filter: none;
     width: 450px;
 
+}
+
+
+#img7 {
+    filter:grayscale(100%)
+}
+
+
+#img7:hover {
+    filter: none;
+    width: 450px;
+
+}
+
+#img8 {
+    filter: blur(4px);
+}
+
+
+#img8:hover {
+    filter: none;
+    width: 450px;
+
+}
+
+#img9 {
+    filter: blur(4px);
+}
+
+
+#img9:hover {
+    filter: none;
+    width: 450px;
+
+}
+
+
+#img10 {
+    filter:grayscale(100%)
+}
+
+
+#img10:hover {
+    filter: none;
+    width: 450px;
+}
+
+
+
+
+#img11 {
+    filter: blur(4px);
+}
+
+
+#img11:hover {
+    filter: none;
+    width: 450px;
+
+}
+
+#img12 {
+    filter:grayscale(100%)
+}
+
+
+#img12:hover {
+    filter: none;
+    width: 450px;
 }

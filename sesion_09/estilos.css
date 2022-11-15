@@ -4,16 +4,21 @@ body ¨ {
 
 
 
-#elpais1 {
-background-color: blue;
-width: 100%;
-
+ul,
+ol {
+    list-style: none;
 }
+
+
 
 #elpais {
   text-align: left;
   margin-right: auto;
   color: beige;
+}
+
+div {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 

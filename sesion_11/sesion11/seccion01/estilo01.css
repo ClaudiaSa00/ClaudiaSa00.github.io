@@ -1,0 +1,176 @@
+
+body {
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+#header {
+    margin: auto;
+    width: 500px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.galery {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color:darkgoldenrod;
+    color: aliceblue;
+    margin-bottom: 30px;
+    display: block;
+}
+
+
+#contenedor {
+    text-align: center;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+img {
+    width: 450px;
+}
+
+
+#img1 {
+    filter: opacity(50%)
+}
+
+#img1:hover {
+    filter: none;
+    width: 450px;
+
+}
+
+#img2 {
+    filter: grayscale(100%);
+}
+
+#img2:hover {
+    filter: none;
+    width: 450px;
+
+}
+
+#img3 {
+    filter: blur(4px);
+}
+
+
+#img3:hover {
+    filter: none;
+    width: 450px;
+
+}
+
+#img4 {
+    filter: blur(4px);
+}
+
+#img4:hover {
+    filter: none;
+    width: 450px;
+
+}
+
+
+#img5 {
+    filter: grayscale(100%);
+}
+
+
+#img5:hover {
+    filter: none;
+    width: 450px;
+
+}
+
+
+#img6 {
+    filter: blur(4px);
+}
+
+
+#img6:hover {
+    filter: none;
+    width: 450px;
+
+}
+
+#img7 {
+    filter:grayscale(100%)
+}
+
+
+#img7:hover {
+    filter: none;
+    width: 450px;
+
+}
+
+#img8 {
+    filter: blur(4px);
+}
+
+
+#img8:hover {
+    filter: none;
+    width: 450px;
+
+}
+
+#img9 {
+    filter: blur(4px);
+}
+
+
+#img9:hover {
+    filter: none;
+    width: 450px;
+
+}
+
+
+#img10 {
+    filter:grayscale(100%)
+}
+
+
+#img10:hover {
+    filter: none;
+    width: 450px;
+}
+
+
+
+
+#img11 {
+    filter: blur(4px);
+}
+
+
+#img11:hover {
+    filter: none;
+    width: 450px;
+
+}
+
+#img12 {
+    filter:grayscale(100%)
+}
+
+
+#img12:hover {
+    filter: none;
+    width: 450px;
+}
