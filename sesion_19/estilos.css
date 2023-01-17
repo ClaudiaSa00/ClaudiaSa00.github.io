@@ -1,0 +1,111 @@
+section {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    height: 90vh;
+   /* background-color: aqua;*/
+}
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    section {
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        /*background-color: blue;*/
+       
+    }
+
+}
+
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+    section {
+        width: 90%;
+        /*background-color: blueviolet;*/
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+}
+
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+    section {
+        width: 90%;
+        /*background-color: rgb(226, 43, 171);*/
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+}
+
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+    section {
+        width: 90%;
+        /*background-color: rgb(226, 43, 43);*/
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+}
+
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .menu {
+    float: left;
+    width: 20%;
+    text-align: center;
+  }
+  
+  .menu a {
+    background-color: #e5e5e5;
+    padding: 8px;
+    margin-top: 7px;
+    display: block;
+    width: 100%;
+    color: black;
+  }
+  
+  .main {
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+  }
+  
+  .right {
+    background-color: #e5e5e5;
+    float: left;
+    width: 20%;
+    padding: 15px;
+    margin-top: 7px;
+    text-align: center;
+  }
+  
+  @media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width: 100%;
+    }
+  }

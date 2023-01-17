@@ -1,0 +1,160 @@
+body {
+
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(img/fondo.jpg);
+    background-size: cover;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+
+}
+
+
+header {
+    width: 80%;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    color: beige;
+    opacity: 70%;
+}
+
+
+
+main {
+    width: 80%;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(34, 34, 34);
+}
+
+
+
+header img {
+    width: 60px;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+header nav img {
+    width: 15px;
+}
+
+
+header div {
+    margin-left: 5px;
+    margin-right: 30px;
+
+}
+
+header a {
+    text-decoration: none;
+    color: azure;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+main section {
+    width: 40%;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+
+main {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+h1 {
+    margin-top: 15%;
+    font-size: 35px;
+    margin-bottom: 0%;
+}
+
+
+h2 {
+    margin-top: 0%;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h4 a {
+    text-decoration: none;
+    color: rgb(59, 137, 197)
+}
+
+button {
+    background-color: rgb(93, 134, 227);
+    color: azure;
+    list-style: none;
+}
+
+
+button:hover {
+    background-color: blue;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+button a {
+    text-decoration: none;
+    color:azure;
+}
+
+div p {
+    width: 100%;
+    margin-right: 400px;
+}
+
+#one {
+    margin-top: 500px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+hr {
+    color: black;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 45%;
+    margin-left: 800px;
+    font-size: 17px;
+    margin-right: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+footer nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer div {
+    margin-right: 10px;
+}
+
+footer nav img {
+    width: 15px;
+    text-align: center;
+}

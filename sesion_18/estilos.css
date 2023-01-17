@@ -1,0 +1,110 @@
+
+
+@font-face {
+    font-family: raleway;
+    src: url(tipos/Raleway/Raleway-Italic-VariableFont_wght.ttf);
+}
+
+
+@font-face {
+    font-family: roboto;
+    src: url(tipos/Roboto/Roboto-BoldItalic.ttf);
+}
+
+
+
+@font-face {
+    font-family: zen ;
+    src: url(tipos/Zen_Dots/ZenDots-Regular.ttf);
+}
+
+
+@font-face {
+    font-family: nerko ;
+    src: url(tipos/Nerko_One/NerkoOne-Regular.ttf);
+}
+
+
+@font-face {
+    font-family: bhutka ;
+    src: url(tipos/BhuTuka_Expanded_One/BhuTukaExpandedOne-Regular.ttf);
+}
+
+
+@font-face {
+    font-family: rubik ;
+    src: url(tipos/Rubik_Microbe/RubikMicrobe-Regular.ttf);
+}
+
+
+body {
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+#header {
+    margin: auto;
+    width: 500px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.tipos {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color:aquamarine;
+    color: rgb(16, 60, 59);
+    margin-bottom: 30px;
+    display: block;
+}
+
+#contenedor {
+    text-align: center;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    width: 450px;
+    background-color: aqua;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+h1 {
+    font-family: raleway;
+}
+
+h2 {
+    font-family: roboto;
+}
+
+
+h3 {
+    font-family: zen ;
+}
+
+
+h4 {
+    font-family: nerko ;
+}
+
+h5 {
+    font-family: bhutka ;
+}
+
+
+h6 {
+    font-family: rubik ;
+}

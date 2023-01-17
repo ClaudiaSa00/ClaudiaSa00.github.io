@@ -1,0 +1,7 @@
+div {
+    height: 80vh;
+}
+
+#border {
+    border: 3px solid rgb(166, 0, 255);
+}
