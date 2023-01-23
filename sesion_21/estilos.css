@@ -5,12 +5,51 @@ body {
     background-image: url(img/fondo2.png);
 }
 
-
-#menu li>a {
-    font-size: 18pt;
-    color: rgb(55, 47, 33);
-
+#menu {
+    color: rgb(34, 169, 0);
 }
+
+
+header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+#primerenlace {
+    font-size: smaller;
+}
+
+
+
+#segundoenlace {
+    justify-content: right !important;
+    font-size: smaller;
+}
+
+
+#evernote {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(34, 169, 0);
+    font-size: small;
+}
+
+
+#datosinicio {
+    color:rgb(34, 169, 0) ;
+    font-size:x-small !important;
+    justify-content: center !important;
+}
+
+#web-sign {
+    color:rgb(34, 169, 0) ;
+    font-size:x-small !important;
+    justify-content: right !important;
+}
+
+
+
+
+
 
 /*carousel*/
 
@@ -20,17 +59,7 @@ body {
 
 
 
-#pag-web {
-    list-style: none;
-    background-color: rgb(255, 241, 223);
-}
 
-
-
-
-#datoslocal{
-    font-size: smaller !important;
-}
 
 
 
@@ -39,7 +68,6 @@ body {
 
 
 /*media queries*/
-
 
 
 
@@ -57,15 +85,16 @@ body {
         padding-top: 50px;
     }
 
-
     #yo {
         flex-wrap: wrap !important;
         padding-top: 30px;
     }
 
 
-
 }
+
+
+
 
 
 
@@ -76,13 +105,11 @@ body {
 @media (min-width:768px) {
 #easdaubic:hover {
     flex-wrap: wrap !important;
-    width: 72% !important;
+    width: 52% !important;
     justify-content: center !important;
 }
 
-
 }
-
 
 
 
@@ -92,13 +119,9 @@ body {
 
 @media (max-width:768px) {
 
-    #intro, #imagenproces{
+    #intro,
+    #imagenproces, #easdaubic {
         width: 80% !important;
-    }
-
-
-    #easdaubic {
-        width: 90% !important;
     }
 
     .servicio-fila {
@@ -106,16 +129,13 @@ body {
         text-align: center;
     }
 
-
     #easdaubic:hover {
         flex-wrap: wrap !important;
-        width: 92% !important;
+        width: 82% !important;
         justify-content: center !important;
     }
 
-
 }
-
 
 /*para pantallas muy pequeñas*/
 
@@ -133,13 +153,13 @@ body {
 
     #easdaubic {
         flex-wrap: wrap !important;
-        width: 90% !important;
+        width: 80% !important;
         justify-content: center !important;
     }
 
     #easdaubic:hover {
         flex-wrap: wrap !important;
-        width: 92% !important;
+        width: 82% !important;
         justify-content: center !important;
     }
 
@@ -155,12 +175,7 @@ body {
        justify-content: center !important;
     }
 
-    #yo {
-        flex-wrap: wrap !important;
-        padding-top: 30px;
-       justify-content: center !important;
-    }
-
+   
 
 
     
@@ -171,15 +186,14 @@ body {
         justify-content: center !important;
     }
 
-    #datoslocal {
+    #datosinicio {
         justify-content: center !important;
+        font-size: 5pt !important;
     }
 
 
 
-
 }
-
 
 
 /*ubicación easda*/
@@ -190,15 +204,8 @@ width: 50%;
 height: 250px;
 }
 
-
 #local {
     background-color: rgb(255, 253, 237);
-    padding-bottom: 300px;
-
-}
-
-#yo {
-    background-color: rgb(255, 255, 255);
     padding-bottom: 300px;
     display: flex;
     justify-content: center !important;
@@ -213,33 +220,36 @@ height: 250px;
 
 /*datos de ubicación*/
 
-#datoslocal div{
+#datosinicio div {
 padding: 0 20px 0 0;
-height: 48px;
+height: 20px;
 
 }
 
 /*línea divisoria de los datos*/
 
-#datoslocal div:not(:last-child) {
-    border-right: 2px solid #3f3f3f;
+#datosinicio div:not(:last-child) {
+    border-right: 2px solid rgb(34, 169, 0);
 }
 
 /*colocamos un margen*/
 
-#datoslocal div:not(:first-child) {
+#datosinicio div:not(:first-child) {
     padding-left: 20px;
     
 }
 
 
-
 /*quitamos los espacios entre los p*/
 
-#datoslocal div > p {
+#datosinicio p {
     margin: 0;
    justify-content: center;
-   font-size: smaller !important;
+}
+
+
+#descrip {
+    font-size: small;
 }
 
 
