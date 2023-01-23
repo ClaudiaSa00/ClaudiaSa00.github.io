@@ -51,18 +51,6 @@ header {
 
 
 
-/*carousel*/
-
-.carousel-inner {
-    max-height: 40rem;
-}
-
-
-
-
-
-
-
 
 
 
@@ -73,11 +61,6 @@ header {
 
 
 @media (max-width:1200) {
-
-    #local {
-        flex-wrap: wrap !important;
-        padding-top: 30px;
-    }
     
     .wrapper {
         width: 90%;
@@ -85,29 +68,10 @@ header {
         padding-top: 50px;
     }
 
-    #yo {
-        flex-wrap: wrap !important;
-        padding-top: 30px;
-    }
-
-
+#imagenes {
+    width: 100%;
 }
 
-
-
-
-
-
-
-
-
-
-@media (min-width:768px) {
-#easdaubic:hover {
-    flex-wrap: wrap !important;
-    width: 52% !important;
-    justify-content: center !important;
-}
 
 }
 
@@ -119,8 +83,7 @@ header {
 
 @media (max-width:768px) {
 
-    #intro,
-    #imagenproces, #easdaubic {
+    #intro {
         width: 80% !important;
     }
 
@@ -129,11 +92,12 @@ header {
         text-align: center;
     }
 
-    #easdaubic:hover {
-        flex-wrap: wrap !important;
-        width: 82% !important;
-        justify-content: center !important;
+
+    #imagenes {
+        width: 80%;
     }
+
+
 
 }
 
@@ -145,40 +109,6 @@ header {
         justify-content: center !important;
     }
 
-    #imagenproces {
-        width: 70% !important;
-        justify-content: center !important;
-        align-items: center !important ;
-    }
-
-    #easdaubic {
-        flex-wrap: wrap !important;
-        width: 80% !important;
-        justify-content: center !important;
-    }
-
-    #easdaubic:hover {
-        flex-wrap: wrap !important;
-        width: 82% !important;
-        justify-content: center !important;
-    }
-
-    #easda {
-        flex-wrap: wrap !important;
-        width: 80% !important;
-        justify-content: center !important;
-    }
-
-    #local {
-        flex-wrap: wrap !important;
-        padding-top: 30px;
-       justify-content: center !important;
-    }
-
-   
-
-
-    
     .wrapper {
         width: 80% !important;
         margin: auto;
@@ -186,9 +116,13 @@ header {
         justify-content: center !important;
     }
 
-    #datosinicio {
-        justify-content: center !important;
-        font-size: 5pt !important;
+
+    #imagenes {
+        width: 50% !important;
+    }
+
+    #grupo {
+        width: 90% !important;
     }
 
 
@@ -196,21 +130,6 @@ header {
 }
 
 
-/*ubicación easda*/
-
-.mapa {
-background: url();
-width: 50%;
-height: 250px;
-}
-
-#local {
-    background-color: rgb(255, 253, 237);
-    padding-bottom: 300px;
-    display: flex;
-    justify-content: center !important;
-
-}
 
 
 .wrapper {
