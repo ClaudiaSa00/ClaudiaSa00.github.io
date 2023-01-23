@@ -2,7 +2,7 @@ body {
     background-color: white;
     font-family: 'Monserrat Alernates', sans-serif;
     overflow-x: hidden;
-    background-image: url(img/fondo2.png);
+    background-image: url(img/fondo.png);
 }
 
 
@@ -22,7 +22,7 @@ body {
 
 #pag-web {
     list-style: none;
-    background-color: rgb(255, 241, 223);
+    background-color: rgb(255, 254, 253);
 }
 
 
@@ -163,6 +163,18 @@ body {
 
 
 
+    #pag-web {
+        list-style: none;
+        justify-content: center !important;
+        text-align: center !important;
+        font-size: smaller !important;
+        margin-bottom: 400px;
+        background-color: rgb(255, 252, 247);
+    }
+
+
+
+
     
     .wrapper {
         width: 80% !important;
@@ -174,6 +186,9 @@ body {
     #datoslocal {
         justify-content: center !important;
     }
+
+
+
 
 
 
@@ -192,8 +207,9 @@ height: 250px;
 
 
 #local {
-    background-color: rgb(255, 253, 237);
+    background: url(img/fondo2.png)
     padding-bottom: 300px;
+    width: 100% !important;
 
 }
 
