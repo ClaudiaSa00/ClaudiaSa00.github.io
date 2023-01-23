@@ -65,6 +65,7 @@ body {
 
 
 
+
 }
 
 
@@ -74,11 +75,11 @@ body {
 
 
 @media (min-width:768px) {
-#easdaubic:hover {
-    flex-wrap: wrap !important;
-    width: 72% !important;
-    justify-content: center !important;
-}
+    #easdaubic:hover {
+        flex-wrap: wrap !important;
+        width: 51% !important;
+        justify-content: center !important;
+    }
 
 
 }
@@ -93,13 +94,9 @@ body {
 @media (max-width:768px) {
 
     #intro, #imagenproces{
-        width: 80% !important;
+        width: 70% !important;
     }
 
-
-    #easdaubic {
-        width: 90% !important;
-    }
 
     .servicio-fila {
         width: 100% !important;
@@ -109,10 +106,9 @@ body {
 
     #easdaubic:hover {
         flex-wrap: wrap !important;
-        width: 92% !important;
+        width: 51% !important;
         justify-content: center !important;
     }
-
 
 }
 
@@ -133,13 +129,13 @@ body {
 
     #easdaubic {
         flex-wrap: wrap !important;
-        width: 90% !important;
+        width: 70% !important;
         justify-content: center !important;
     }
 
     #easdaubic:hover {
         flex-wrap: wrap !important;
-        width: 92% !important;
+        width: 73% !important;
         justify-content: center !important;
     }
 
@@ -207,9 +203,9 @@ height: 250px;
 
 
 #local {
-    background: url(img/fondo2.png)
     padding-bottom: 300px;
     width: 100% !important;
+
 
 }
 
