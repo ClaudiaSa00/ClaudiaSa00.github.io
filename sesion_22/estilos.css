@@ -1,0 +1,70 @@
+body {
+    background-color: white;
+    font-family: 'Monserrat Alernates', sans-serif;
+    overflow-x: hidden;
+    background-image: url(img/fondo.png);
+}
+
+#menu li>a {
+    font-size: 18pt;
+    color: rgb(55, 47, 33);
+
+}
+
+
+#product {
+    font-size: smaller !important;
+}
+
+/*carousel*/
+
+.carousel-inner {
+    max-height: 40rem;
+}
+
+
+#pag-web {
+    list-style: none;
+    background-color: rgb(255, 254, 253);
+}
+
+
+
+
+
+@media (max-width:768px) {
+
+    #intro {
+        width: 70% !important;
+    }
+
+
+}
+
+
+#par2 {
+    list-style: none;
+}
+
+.tachado:hover {
+    color: red;
+    text-decoration-line: line-through;
+}
+
+.subrayado:hover {
+    color: green;
+    text-decoration-line: underline;
+    font-size: 18px;
+}
+
+
+
+
+footer {
+    background-color: black;
+    color: bisque;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+}
+
