@@ -60,7 +60,6 @@ body {
 
     #yo {
         flex-wrap: wrap !important;
-        padding-top: 30px;
     }
 
 
@@ -153,7 +152,6 @@ body {
 
     #yo {
         flex-wrap: wrap !important;
-        padding-top: 30px;
        justify-content: center !important;
     }
 
@@ -211,7 +209,6 @@ height: 250px;
 
 #yo {
     background-color: rgb(255, 255, 255);
-    padding-bottom: 300px;
     display: flex;
     justify-content: center !important;
 
